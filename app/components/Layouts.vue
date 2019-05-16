@@ -1,104 +1,88 @@
 <template>
-  <Page>
-    <StackLayout>
-      <FlexBoxLayout
-        class="flex-box-layout border"
-      >
-        <StackLayout width="33%">
-          <Button
-          />
-        </StackLayout>
-        <StackLayout width="33%">
-          <Button
-          />
-        </StackLayout>
-        <StackLayout width="33%">
-          <Button
-          />
-        </StackLayout>
-      </FlexBoxLayout>  
+  <StackLayout>
+    <FlexBoxLayout
+      class="flex-box-layout border"
+    >
+      <StackLayout width="33%">
+        <Button />
+      </StackLayout>
+      <StackLayout width="33%">
+        <Button />
+      </StackLayout>
+      <StackLayout width="33%">
+        <Button />
+      </StackLayout>
+    </FlexBoxLayout>
 
-      <FlexBoxLayout
-        class="flex-box-layout border"
-      >
-        <StackLayout width="66%">`
-          <Button
-          />
-        </StackLayout>
-        <StackLayout width="33%">
-          <Button
-          />
-        </StackLayout>
-      </FlexBoxLayout>  
+    <FlexBoxLayout
+      class="flex-box-layout border"
+    >
+      <StackLayout width="66%">`
+        <Button />
+      </StackLayout>
+      <StackLayout width="33%">
+        <Button />
+      </StackLayout>
+    </FlexBoxLayout>
 
-      <GridLayout
-        columns="2*, *"
-        rows="auto"
-        class="border"
+    <GridLayout
+      columns="2*, *"
+      rows="auto"
+      class="border"
+    >
+      <StackLayout
+        row="0"
+        col="0"
       >
-        <StackLayout
-          row="0"
-          col="0"
-        >
-          <Button
-          />
-        </StackLayout>
-        <StackLayout
-          row="0"
-          col="1"
-        >
-          <Button
-          />
-        </StackLayout>
-      </GridLayout>
-
-      <FlexBoxLayout
-        class="flex-box-layout border"
+        <Button />
+      </StackLayout>
+      <StackLayout
+        row="0"
+        col="1"
       >
-        <StackLayout width="25%">`
-          <Button
-          />
-        </StackLayout>
-        <StackLayout width="33%">
-          <Button
-          />
-        </StackLayout>
-        <StackLayout width="42%">
-          <Button
-          />
-        </StackLayout>
-      </FlexBoxLayout>  
+        <Button />
+      </StackLayout>
+    </GridLayout>
 
-      <GridLayout
-        columns="3*, 4*, 5*"
-        rows="auto"
-        class="border"
+    <FlexBoxLayout
+      class="flex-box-layout border"
+    >
+      <StackLayout width="25%">`
+        <Button />
+      </StackLayout>
+      <StackLayout width="33%">
+        <Button />
+      </StackLayout>
+      <StackLayout width="42%">
+        <Button />
+      </StackLayout>
+    </FlexBoxLayout>
+
+    <GridLayout
+      columns="3*, 4*, 5*"
+      rows="auto"
+      class="border"
+    >
+      <StackLayout
+        row="0"
+        col="0"
       >
-        <StackLayout
-          row="0"
-          col="0"
-        >
-          <Button
-          />
-        </StackLayout>
-        <StackLayout
-          row="0"
-          col="1"
-        >
-          <Button
-          />
-        </StackLayout>
-        <StackLayout
-          row="0"
-          col="2"
-        >
-          <Button
-          />
-        </StackLayout>
-      </GridLayout>
-
-    </StackLayout>
-  </Page>
+        <Button />
+      </StackLayout>
+      <StackLayout
+        row="0"
+        col="1"
+      >
+        <Button />
+      </StackLayout>
+      <StackLayout
+        row="0"
+        col="2"
+      >
+        <Button />
+      </StackLayout>
+    </GridLayout>
+  </StackLayout>
 </template>
 
 <script>

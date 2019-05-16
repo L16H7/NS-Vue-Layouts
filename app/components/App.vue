@@ -1,5 +1,18 @@
 <template>
-  <Layouts />
+  <Page>
+    <TabView
+      :selectedIndex="selectedIndex"
+      @selectedIndexChange="indexChange"
+      androidTabsPosition="bottom"
+    >
+      <TabViewItem title="Tab 1">
+        <Layouts />
+      </TabViewItem>
+      <TabViewItem title="Tab 2">
+        <Label text="Content for Tab 2" />
+      </TabViewItem>
+    </TabView>
+  </Page>
 </template>
 
 <script >
@@ -13,7 +26,13 @@ export default {
     return {
       msg: 'Hello World!'
     }
-  }
+  },
+  methods: {
+    indexChange: function(args) {
+        let newIndex = args.value
+        console.log('Current tab index: ' + newIndex)
+    },
+  },
 }
 </script>
 
