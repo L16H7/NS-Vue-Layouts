@@ -17,7 +17,7 @@
     <FlexBoxLayout
       class="flex-box-layout border"
     >
-      <StackLayout width="66%">`
+      <StackLayout width="66%">
         <Button />
       </StackLayout>
       <StackLayout width="33%">
@@ -100,11 +100,7 @@ StackLayout {
   border-color: red;
   margin: 1;
 }
-.border {
-  border-width: 1;
-  border-color: black;
-  margin: 4;
-}
+
 .flex-box-layout {
   justify-content: space-around;
 }
