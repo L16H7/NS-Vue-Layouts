@@ -8,3 +8,56 @@
 
 // Global SCSS styling
 // @see https://docs.nativescript.org/ui/styling
+$s2: 8;
+
+.ma-1 {
+  margin: 5;
+}
+.ma-2 {
+  margin: 8;
+}
+.ma-3 {
+  margin: 11;
+}
+.ma-4 {
+  margin: 14;
+}
+.pa-1 {
+  padding: 5;
+}
+.pa-2 {
+  padding: 8;
+}
+.pa-3 {
+  padding: 11;
+}
+.pa-4 {
+  padding: 14;
+}
+.mt-2 {
+  margin-top: $s2;
+}
+.mb-2 {
+  margin-bottom: $s2;
+}
+.ml-2 {
+  margin-left: $s2;
+}
+.mr-2 {
+  margin-right: $s2;
+}
+.pt-2 {
+  padding-top: $s2;
+}
+.pb-2 {
+  padding-bottom: $s2;
+}
+.pl-2 {
+  padding-left: $s2;
+}
+.pr-2 {
+  padding-right: $s2;
+}
+.red {
+  background-color: red;
+}
