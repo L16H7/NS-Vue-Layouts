@@ -5,11 +5,14 @@
       @selectedIndexChange="indexChange"
       androidTabsPosition="bottom"
     >
-      <TabViewItem title="Tab 1">
-        <LoopContentLayout />
+      <TabViewItem title="Flex">
+        <FlexLayouts />
       </TabViewItem>
-      <TabViewItem title="Tab 2">
+      <TabViewItem title="Layout">
         <Layouts />
+      </TabViewItem>
+      <TabViewItem title="Loop">
+        <LoopContentLayout />
       </TabViewItem>
     </TabView>
   </Page>
@@ -18,11 +21,13 @@
 <script >
 import Layouts from '@/components/Layouts';
 import LoopContentLayout from '@/components/LoopContentLayout';
+import FlexLayouts from '@/components/FlexLayouts';
 
 export default {
   components: {
     Layouts,
     LoopContentLayout,
+    FlexLayouts,
   },
   data() {
     return {

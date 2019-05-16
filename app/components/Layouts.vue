@@ -4,13 +4,13 @@
       class="flex-box-layout border"
     >
       <StackLayout width="33%">
-        <Button />
+        <Button text="1" />
       </StackLayout>
       <StackLayout width="33%">
-        <Button />
+        <Button text="1" />
       </StackLayout>
       <StackLayout width="33%">
-        <Button />
+        <Button text="1" />
       </StackLayout>
     </FlexBoxLayout>
 
@@ -18,10 +18,10 @@
       class="flex-box-layout border"
     >
       <StackLayout width="66%">
-        <Button />
+        <Button text="2" />
       </StackLayout>
       <StackLayout width="33%">
-        <Button />
+        <Button text="1" />
       </StackLayout>
     </FlexBoxLayout>
 
@@ -34,27 +34,27 @@
         row="0"
         col="0"
       >
-        <Button />
+        <Button text="2" />
       </StackLayout>
       <StackLayout
         row="0"
         col="1"
       >
-        <Button />
+        <Button text="1" />
       </StackLayout>
     </GridLayout>
 
     <FlexBoxLayout
       class="flex-box-layout border"
     >
-      <StackLayout width="25%">`
-        <Button />
+      <StackLayout width="25%">
+        <Button text="3" />
       </StackLayout>
       <StackLayout width="33%">
-        <Button />
+        <Button text="4" />
       </StackLayout>
       <StackLayout width="42%">
-        <Button />
+        <Button text="5" />
       </StackLayout>
     </FlexBoxLayout>
 
@@ -67,19 +67,19 @@
         row="0"
         col="0"
       >
-        <Button />
+        <Button text="3" />
       </StackLayout>
       <StackLayout
         row="0"
         col="1"
       >
-        <Button />
+        <Button text="4" />
       </StackLayout>
       <StackLayout
         row="0"
         col="2"
       >
-        <Button />
+        <Button text="5" />
       </StackLayout>
     </GridLayout>
   </StackLayout>
