@@ -14,6 +14,9 @@
       <TabViewItem title="Loop">
         <LoopContentLayout />
       </TabViewItem>
+      <TabViewItem title="Helpers">
+        <Helpers />
+      </TabViewItem>
     </TabView>
   </Page>
 </template>
@@ -22,17 +25,14 @@
 import Layouts from '@/components/Layouts';
 import LoopContentLayout from '@/components/LoopContentLayout';
 import FlexLayouts from '@/components/FlexLayouts';
+import Helpers from '@/components/Helpers';
 
 export default {
   components: {
     Layouts,
     LoopContentLayout,
     FlexLayouts,
-  },
-  data() {
-    return {
-      msg: 'Hello World!'
-    }
+    Helpers,
   },
   methods: {
     indexChange: function(args) {
